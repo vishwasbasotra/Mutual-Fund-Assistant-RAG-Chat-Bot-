@@ -1,0 +1,34 @@
+---
+source_url: https://www.hdfcfund.com/investor-services/consolidated-account-statement
+scheme_name: General HDFC MF
+document_type: Guide
+last_updated: June 5, 2026
+---
+
+Consolidated Account Statement (CAS) Download Guide
+
+How to Download Consolidated Account Statement (CAS)
+
+What is CAS?
+
+Consolidated Account Statement (CAS) is a single statement that contains details of all transactions and mutual fund holdings across different AMCs (Asset Management Companies) registered under a single PAN.
+
+Steps to download CAS from CAMS (Computer Age Management Services):
+
+Go to the CAMS Investor Service website (https://www.camsonline.com).
+
+Navigate to "Statements" > "Consolidated Account Statement (CAS)".
+
+Select "CAS - CAMS & KFintech" to get a combined statement from both registrars.
+
+Provide your registered Email ID and PAN.
+
+Choose a security password (this will be the password to open the CAS PDF).
+
+Click "Submit". CAMS will process the request and email the encrypted CAS PDF statement to your registered email address within 1 hour.
+
+Steps to download CAS from NSDL / CDSL (Dematerialized Portfolios):
+
+If you hold mutual fund units in a demat account, your depository (NSDL or CDSL) will send a monthly CAS to your registered email address automatically when transactions occur. You can also request a copy by logging into the CDSL or NSDL portal using your demat credentials.
+
+Source URL: https://www.hdfcfund.com/investor-services/consolidated-account-statement

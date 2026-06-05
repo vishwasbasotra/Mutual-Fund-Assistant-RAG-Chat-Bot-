@@ -1,0 +1,21 @@
+---
+source_url: https://www.hdfcfund.com/sites/default/files/factsheets/HDFC_Gold_ETF_FOF_Factsheet.pdf
+scheme_name: HDFC Gold ETF Fund of Fund
+document_type: Factsheet
+last_updated: May 31, 2026
+---
+
+HDFC Mutual Fund - Factsheet (May 2026 Disclosure)
+SCHEME: HDFC Gold ETF Fund of Fund
+Inception Date: November 1, 2011
+Total AUM: ₹1,820 Crores
+NAV (Direct Growth): ₹24.85 (As of May 31, 2026)
+
+PORTFOLIO ALLOCATION:
+1. HDFC Gold Exchange Traded Fund (Underlying ETF scheme) - 99.2%
+2. Net Current Assets / Cash Equivalents - 0.8%
+
+Key Metrics:
+- Tracking Error: 0.12% vs Domestic Gold Price
+Last updated from sources: May 31, 2026
+Source URL: https://www.hdfcfund.com/sites/default/files/factsheets/HDFC_Gold_ETF_FOF_Factsheet.pdf

@@ -1,0 +1,22 @@
+---
+source_url: https://www.amfiindia.com/investor-corner/faq
+scheme_name: Regulatory AMFI
+document_type: FAQ
+last_updated: June 5, 2026
+---
+
+AMFI Mutual Fund Investor Education FAQs
+
+AMFI Investor Corner: Mutual Fund FAQs
+
+Factual Mutual Fund Guidelines
+
+Direct vs Regular Plans: Direct plans have a lower expense ratio because they do not involve distributor commissions. Regular plans have a higher expense ratio to cover distributor commissions. Over the long term, Direct plans yield higher net returns.
+
+NAV (Net Asset Value): The NAV represents the per-unit market value of a mutual fund scheme. It is calculated and declared at the close of every business day.
+
+Systematic Investment Plan (SIP): A method of investing a fixed sum of money at regular intervals (daily, weekly, monthly, quarterly) into a chosen mutual fund scheme. It helps average out costs (rupee cost averaging).
+
+Lock-in Period: ELSS (Equity Linked Savings Scheme) carries a statutory lock-in period of 3 years from the date of allotment of units. Other open-ended equity schemes have no statutory lock-in period but may charge exit loads.
+
+Source URL: https://www.amfiindia.com/investor-corner/faq

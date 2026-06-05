@@ -1,0 +1,20 @@
+---
+source_url: https://www.sebi.gov.in/sebiweb/home/list/4/37/0/1/FAQs
+scheme_name: Regulatory SEBI
+document_type: FAQ
+last_updated: June 5, 2026
+---
+
+SEBI Investor Protection and Grievance FAQs
+
+SEBI FAQs: Investor Protection & Redressal
+
+SEBI Regulatory Boundaries
+
+Riskometer: Mutual funds must display a riskometer indicating 6 risk levels: Low, Low to Moderate, Moderate, Moderately High, High, and Very High. The riskometer must be updated monthly.
+
+Grievance Redressal (SCORES): If an investor has a complaint against a Mutual Fund/AMC, they must first raise it with the AMC. If the AMC does not resolve it to the investor's satisfaction within 21 days, the investor can lodge a complaint online through SEBI's web-based portal SCORES (sebi.gov.in) or SCORES mobile app.
+
+Investment Advice: Only SEBI Registered Investment Advisers (RIAs) are legally authorized to provide personalized investment advice or scheme recommendations. Unregistered entities or automated assistants should not provide financial recommendations.
+
+Source URL: https://www.sebi.gov.in/sebiweb/home/list/4/37/0/1/FAQs

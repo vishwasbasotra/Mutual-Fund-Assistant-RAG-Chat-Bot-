@@ -1,0 +1,31 @@
+---
+source_url: https://www.hdfcfund.com/sites/default/files/2024-06/SID_HDFC_Large_Cap_Fund_June_2024.pdf
+scheme_name: HDFC Top 100 Fund (Large Cap)
+document_type: Scheme Information Document
+last_updated: June 30, 2024
+---
+
+HDFC Mutual Fund - Scheme Information Document (SID)
+SCHEME NAME: HDFC Top 100 Fund (Large Cap)
+Investment Objective: To generate long-term capital appreciation from a portfolio that is predominantly invested in large-cap companies.
+Benchmark Index: Nifty 100 TRI
+Riskometer: Very High
+Fund Manager: Rahul Baijal
+
+FEES AND EXPENSES:
+1. Expense Ratio:
+   - Direct Plan - Growth Option: 0.70% per annum.
+   - Regular Plan: 1.58% per annum.
+   
+2. Exit Load Structure:
+| Redemption Period | Exit Load |
+|-------------------|-----------|
+| Within 1 Year (<= 365 Days) from allotment | 1.00% of applicable NAV |
+| More than 1 Year (> 365 Days) from allotment | Nil |
+
+MINIMUM TRANSACTION AMOUNTS:
+- Minimum Lumpsum Purchase: ₹100 and in multiples of ₹1 thereafter.
+- Minimum Additional Purchase: ₹100 and in multiples of ₹1 thereafter.
+- Minimum SIP Installment: ₹100 per month and in multiples of ₹1 thereafter.
+- Minimum SIP Installment Count: 6 installments.
+Source URL: https://www.hdfcfund.com/sites/default/files/2024-06/SID_HDFC_Large_Cap_Fund_June_2024.pdf

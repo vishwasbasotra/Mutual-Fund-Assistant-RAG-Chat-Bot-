@@ -1,0 +1,31 @@
+---
+source_url: https://www.hdfcfund.com/sites/default/files/2024-06/SID_HDFC_Small_Cap_Fund_June_2024.pdf
+scheme_name: HDFC Small Cap Fund
+document_type: Scheme Information Document
+last_updated: June 30, 2024
+---
+
+HDFC Mutual Fund - Scheme Information Document (SID)
+SCHEME NAME: HDFC Small Cap Fund
+Investment Objective: To provide long-term capital appreciation by investing predominantly in small-cap companies.
+Benchmark Index: S&P BSE 250 SmallCap TRI
+Riskometer: Very High
+Fund Manager: Chirag Setalvad
+
+FEES AND EXPENSES:
+1. Expense Ratio:
+   - Direct Plan - Growth Option: 0.67% per annum.
+   - Regular Plan: 1.55% per annum.
+   
+2. Exit Load Structure:
+| Redemption Period | Exit Load |
+|-------------------|-----------|
+| Within 1 Year (<= 365 Days) from allotment | 1.00% of applicable NAV |
+| More than 1 Year (> 365 Days) from allotment | Nil |
+
+MINIMUM TRANSACTION AMOUNTS:
+- Minimum Lumpsum Purchase: ₹100 and in multiples of ₹1 thereafter.
+- Minimum Additional Purchase: ₹100 and in multiples of ₹1 thereafter.
+- Minimum SIP Installment: ₹100 per month and in multiples of ₹1 thereafter.
+- Minimum SIP Installment Count: 6 installments.
+Source URL: https://www.hdfcfund.com/sites/default/files/2024-06/SID_HDFC_Small_Cap_Fund_June_2024.pdf

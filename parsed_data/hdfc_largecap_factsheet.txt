@@ -1,0 +1,26 @@
+---
+source_url: https://www.hdfcfund.com/sites/default/files/factsheets/HDFC_Large_Cap_Factsheet.pdf
+scheme_name: HDFC Top 100 Fund (Large Cap)
+document_type: Factsheet
+last_updated: May 31, 2026
+---
+
+HDFC Mutual Fund - Factsheet (May 2026 Disclosure)
+SCHEME: HDFC Top 100 Fund (Large Cap)
+Inception Date: October 11, 1996
+Total AUM: ₹32,150 Crores
+NAV (Direct Growth): ₹982.15 (As of May 31, 2026)
+
+PORTFOLIO DETAILS (Top 5 Holdings):
+1. ICICI Bank Ltd. - 8.2%
+2. HDFC Bank Ltd. - 7.9%
+3. Reliance Industries Ltd. - 6.8%
+4. Infosys Ltd. - 5.1%
+5. ITC Ltd. - 4.5%
+
+Key Metrics:
+- Turnover Ratio: 15.6%
+- PE Ratio: 24.2
+- PB Ratio: 3.5
+Last updated from sources: May 31, 2026
+Source URL: https://www.hdfcfund.com/sites/default/files/factsheets/HDFC_Large_Cap_Factsheet.pdf

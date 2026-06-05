@@ -1,0 +1,28 @@
+---
+source_url: https://www.hdfcfund.com/investor-services/statement-request
+scheme_name: General HDFC MF
+document_type: Guide
+last_updated: June 5, 2026
+---
+
+HDFC Mutual Fund Account Statement Request Guide
+
+How to Download or Request HDFC Mutual Fund Account Statement
+
+Method 1: HDFC MF Online Portal (Instant Request)
+
+Investors can request their account statement directly on the HDFC Mutual Fund official website under "Investor Services" > "Request Statement". Enter your PAN, select the Folio Number, and submit. The statement will be emailed to your registered email address within 5 minutes.
+
+Method 2: SMS Service
+
+Send an SMS to 9279700007 from your registered mobile number using the keyword: HDFCMF EST <Folio Number> . An electronic account statement will be sent to your registered email address.
+
+Method 3: WhatsApp Support
+
+Initiate a chat with HDFC Mutual Fund's verified WhatsApp number at +91 82918 00007. Select the "Statement Request" menu option, verify with OTP, and get a download link directly in the chat.
+
+Method 4: Mobile App (HDFC MF Invest Online)
+
+Log into the HDFC MF mobile application, go to "Portfolios", select your scheme, and tap on "Download Statement" for the desired financial year.
+
+Source URL: https://www.hdfcfund.com/investor-services/statement-request
