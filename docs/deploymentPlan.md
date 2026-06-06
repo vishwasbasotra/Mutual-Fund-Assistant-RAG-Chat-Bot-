@@ -9,11 +9,12 @@ This document provides step-by-step instructions to deploy the facts-only Mutual
 - [x] **FastAPI Backend (Railway)**: **SUCCESSFULLY DEPLOYED & ONLINE**
   - **Root Directory**: `backend`
   - **Start Command**: `python -m ingestion.download && python -m ingestion.parser && python -m ingestion.index && uvicorn main:app --host 0.0.0.0 --port $PORT`
-  - **Public Domain**: Generated (e.g., `https://xxxx.up.railway.app`)
-- [ ] **React Frontend (Vercel)**: **PENDING DEPLOYMENT**
+  - **Public Domain**: [https://mutual-fund-assistant-rag-chat-bot-production.up.railway.app/](https://mutual-fund-assistant-rag-chat-bot-production.up.railway.app/)
+- [x] **React Frontend (Vercel)**: **SUCCESSFULLY DEPLOYED & ONLINE**
   - **Root Directory**: `frontend`
   - **Framework Preset**: `Vite`
-  - **Environment Variable**: `VITE_API_BASE_URL` (Set to your generated Railway domain URL)
+  - **Environment Variable**: `VITE_API_BASE_URL` = `mutual-fund-assistant-rag-chat-bot-production.up.railway.app`
+  - **Public Domain**: [https://mutual-fund-assistant-rag-chat-bot.vercel.app/](https://mutual-fund-assistant-rag-chat-bot.vercel.app/)
 
 ---
 
@@ -107,13 +108,13 @@ In the **Environment Variables** section of the configuration screen, add the ba
 
 | Key | Value | Purpose |
 | :--- | :--- | :--- |
-| `VITE_API_BASE_URL` | `https://your-backend-production.up.railway.app` | The Railway public URL you generated in Part 1. |
+| `VITE_API_BASE_URL` | `mutual-fund-assistant-rag-chat-bot-production.up.railway.app` | The Railway public URL you generated in Part 1. |
 
 > [!IMPORTANT]
 > Ensure the Vercel environment variable value does **NOT** contain a trailing slash (e.g. use `/` at the end).
 
 ### Step 4: Deploy
-Click **Deploy**. Vercel will build your static bundle and serve the app on a public domain (e.g. `https://fundinsight-six.vercel.app`).
+Click **Deploy**. Vercel will build your static bundle and serve the app on a public domain (e.g. `https://mutual-fund-assistant-rag-chat-bot.vercel.app`).
 
 ---
 
@@ -125,7 +126,7 @@ Once both services are active, check that the setup was successful:
    - Open your Vercel deployment URL in a browser.
    - Look at the top navigation bar. If the integration is successful, the indicator dot will pulse green, and the text will display `Connected (554 facts)` (or the exact number of parsed facts).
 2. **Check Offline Fallback**:
-   - If the indicator dot pulses red or says `Disconnected`, open your browser developer console (F12) to trace the failing fetch call to `https://your-backend-production.up.railway.app/health`.
+   - If the indicator dot pulses red or says `Disconnected`, open your browser developer console (F12) to trace the failing fetch call to `https://mutual-fund-assistant-rag-chat-bot-production.up.railway.app/health`.
 3. **Functional Query Testing**:
    - Click the **Exit Load Details** quick-start button.
    - The bot should instantly reply with exit load facts (1% within 1 year) and present the **View Reference Sheet** link button pointing to the official sources.
