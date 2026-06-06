@@ -3,8 +3,7 @@
 An enterprise-grade, compliance-first Retrieval-Augmented Generation (RAG) assistant for mutual fund queries. Built with **FastAPI**, **React (Vite)**, **Chroma DB**, and **Groq (Llama 3.1)**, it is specifically configured to provide facts-only Q&A for HDFC Mutual Fund schemes while strictly adhering to SEBI/AMFI financial advisory compliance guidelines.
 
 ### 🌐 Live Production Demo
-*   **Web Application (Vercel)**: [https://mutual-fund-assistant-rag-chat-bot.vercel.app/](https://mutual-fund-assistant-rag-chat-bot.vercel.app/)
-*   **API Service (Railway)**: [https://mutual-fund-assistant-rag-chat-bot-production.up.railway.app/](https://mutual-fund-assistant-rag-chat-bot-production.up.railway.app/)
+[https://mutual-fund-assistant-rag-chat-bot.vercel.app/](https://mutual-fund-assistant-rag-chat-bot.vercel.app/)
 
 ---
 
