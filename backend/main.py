@@ -17,22 +17,24 @@ if 'backend' not in sys.modules:
             sys.path.insert(0, current_dir)
         
         import config
-        import guardrails
-        import retrieval
-        import generation
-        import validator
-        
-        backend_module.config = config
-        backend_module.guardrails = guardrails
-        backend_module.retrieval = retrieval
-        backend_module.generation = generation
-        backend_module.validator = validator
-        
         sys.modules['backend.config'] = config
+        backend_module.config = config
+        
+        import guardrails
         sys.modules['backend.guardrails'] = guardrails
+        backend_module.guardrails = guardrails
+        
+        import retrieval
         sys.modules['backend.retrieval'] = retrieval
+        backend_module.retrieval = retrieval
+        
+        import generation
         sys.modules['backend.generation'] = generation
+        backend_module.generation = generation
+        
+        import validator
         sys.modules['backend.validator'] = validator
+        backend_module.validator = validator
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
