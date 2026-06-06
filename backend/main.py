@@ -1,3 +1,39 @@
+import sys
+import os
+
+# Metaprogramming fallback to mock the 'backend' package when running on Railway
+# where the root directory is set to 'backend' (mapping files directly to /app)
+if 'backend' not in sys.modules:
+    try:
+        import backend
+    except ModuleNotFoundError:
+        import types
+        backend_module = types.ModuleType('backend')
+        sys.modules['backend'] = backend_module
+        
+        # Resolve sibling modules relative to current directory
+        current_dir = os.path.dirname(os.path.abspath(__file__))
+        if current_dir not in sys.path:
+            sys.path.insert(0, current_dir)
+        
+        import config
+        import guardrails
+        import retrieval
+        import generation
+        import validator
+        
+        backend_module.config = config
+        backend_module.guardrails = guardrails
+        backend_module.retrieval = retrieval
+        backend_module.generation = generation
+        backend_module.validator = validator
+        
+        sys.modules['backend.config'] = config
+        sys.modules['backend.guardrails'] = guardrails
+        sys.modules['backend.retrieval'] = retrieval
+        sys.modules['backend.generation'] = generation
+        sys.modules['backend.validator'] = validator
+
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel

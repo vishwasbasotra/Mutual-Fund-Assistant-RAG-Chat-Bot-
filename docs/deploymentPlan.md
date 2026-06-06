@@ -32,11 +32,13 @@ Ensure your GitHub repository has the correct nested directory structure:
 ├── backend/
 │   ├── main.py
 │   ├── requirements.txt
+│   ├── ingestion/
+│   │   ├── download.py
+│   │   ├── parser.py
+│   │   └── index.py
+│   ├── raw_data/
+│   ├── parsed_data/
 │   └── ...
-├── ingestion/
-│   ├── download.py
-│   ├── parser.py
-│   └── index.py
 └── ...
 ```
 
@@ -46,17 +48,14 @@ Ensure your GitHub repository has the correct nested directory structure:
 3. Once the service is created, go to the service **Settings** panel.
 
 ### Step 3: Configure Build & Start Commands
-Since our backend is in a nested directory and the Chroma DB is populated via the ingestion pipeline, we configure custom commands:
+Since we nested the ingestion and data scripts under `/backend`, configure Railway to treat this subdirectory as the project root:
 
-1. **Root Directory**: In Railway settings, set the **Root Directory** to `/` (repository root) so that both the backend and ingestion modules are accessible.
-2. **Custom Build Command**:
-   ```bash
-   pip install -r backend/requirements.txt
-   ```
+1. **Root Directory**: In Railway settings, click **Set root directory** and select/input `backend`.
+2. **Custom Build Command**: Leave as default (Nixpacks detects `requirements.txt` automatically inside `/backend` and installs the packages).
 3. **Custom Start Command**:
-   To ensure the vector database is fully populated on startup before uvicorn boots, combine the ingestion pipeline scripts with the start command:
+   Configure this start command to download, parse, and index the factsheets into Chroma DB before uvicorn boots the server:
    ```bash
-   python -m ingestion.download && python -m ingestion.parser && python -m ingestion.index && uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+   python -m ingestion.download && python -m ingestion.parser && python -m ingestion.index && uvicorn main:app --host 0.0.0.0 --port $PORT
    ```
 
 ### Step 4: Configure Environment Variables

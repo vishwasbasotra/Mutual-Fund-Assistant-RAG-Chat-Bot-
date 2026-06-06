@@ -11,7 +11,7 @@ if os.path.exists(env_path):
 else:
     load_dotenv()
 
-CHROMA_DB_PATH = os.getenv("CHROMA_DB_PATH", os.path.join(project_root, "chroma_db"))
+CHROMA_DB_PATH = os.getenv("CHROMA_DB_PATH", os.path.join(config_dir, "chroma_db"))
 COLLECTION_NAME = os.getenv("COLLECTION_NAME", "mutual_fund_faq")
 EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "BAAI/bge-small-en-v1.5")
 
