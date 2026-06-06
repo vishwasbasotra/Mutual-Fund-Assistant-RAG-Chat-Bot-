@@ -4,6 +4,19 @@ This document provides step-by-step instructions to deploy the facts-only Mutual
 
 ---
 
+## Deployment Status Checklist
+
+- [x] **FastAPI Backend (Railway)**: **SUCCESSFULLY DEPLOYED & ONLINE**
+  - **Root Directory**: `backend`
+  - **Start Command**: `python -m ingestion.download && python -m ingestion.parser && python -m ingestion.index && uvicorn main:app --host 0.0.0.0 --port $PORT`
+  - **Public Domain**: Generated (e.g., `https://xxxx.up.railway.app`)
+- [ ] **React Frontend (Vercel)**: **PENDING DEPLOYMENT**
+  - **Root Directory**: `frontend`
+  - **Framework Preset**: `Vite`
+  - **Environment Variable**: `VITE_API_BASE_URL` (Set to your generated Railway domain URL)
+
+---
+
 ## Deployment Architecture
 
 ```mermaid
