@@ -2,7 +2,11 @@ import React, { useState, useEffect } from 'react';
 import WelcomeScreen from './components/WelcomeScreen';
 import ChatWindow from './components/ChatWindow';
 
-const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+let base_url = import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000';
+if (base_url && !base_url.startsWith('http://') && !base_url.startsWith('https://')) {
+  base_url = 'https://' + base_url;
+}
+const API_BASE_URL = base_url;
 
 export default function App() {
   const [messages, setMessages] = useState([]);
