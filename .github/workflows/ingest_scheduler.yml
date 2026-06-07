@@ -30,6 +30,7 @@ jobs:
       - name: Run Ingestion Pipeline
         env:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+        working-directory: backend
         run: |
           python ingestion/download.py
           python ingestion/parser.py
@@ -39,6 +40,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add chroma_db/ raw_data/
+          git add backend/chroma_db/
           git commit -m "Auto-update: Daily ingestion run $(date -u +'%Y-%m-%d %H:%M:%S UTC')" || echo "No changes to commit"
           git push
